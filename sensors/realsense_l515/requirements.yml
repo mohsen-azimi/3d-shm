@@ -1,0 +1,23 @@
+# conda env create --file requirements.yml
+
+name: l515
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.10
+- matplotlib
+- numpy
+- pip
+- pip:
+  - jsons==0.8.8
+  - gradescope-utils
+  - subprocess32
+  - pyrealsense2
+  - pyyaml==5.4.1
+  - open3d==0.13.0
+  - opencv-python==4.5.3.56
+  
+  
+
+

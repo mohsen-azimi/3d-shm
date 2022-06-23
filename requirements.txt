@@ -1,0 +1,9 @@
+numpy
+pyserial
+jsons
+pyrealsense2==2.50.0.3812
+pyyaml
+opencv-python
+opencv-contrib-python
+open3d==0.13.0
+pynput
